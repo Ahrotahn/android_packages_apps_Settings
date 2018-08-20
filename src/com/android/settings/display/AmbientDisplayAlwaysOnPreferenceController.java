@@ -65,7 +65,7 @@ public class AmbientDisplayAlwaysOnPreferenceController extends
     }
 
     public static boolean isAlwaysOnEnabled(AmbientDisplayConfiguration config) {
-        return config.alwaysOnEnabled(MY_USER);
+        return config.alwaysOnSettingEnabled(MY_USER);
     }
 
     @Override
